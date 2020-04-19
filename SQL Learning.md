@@ -1,4 +1,24 @@
 # SQL Learning
+
+### Run your SQL commands in Mode.
+1. download the Bridge Connector
+<br>https://app.mode.com/udacity_data_sciences/data_sources/bridges/8a84b988d6b3/default/postgresql/new
+
+2. Choose the connect page to Connecting through Bridge Connector page
+<br>https://app.mode.com/udacity_data_sciences/data_sources/bridges/default/default/postgresql
+3. input required information
+```
+Server [localhost]: 
+Database [postgres]: 
+Port [5432]: 
+Username [postgres]: 
+Password for user postgres: 
+```
+<br>https://app.mode.com/udacity_data_sciences/data_sources/bridges/8a84b988d6b3/default/postgresql/new
+
+4. Don't choose the encryption option then you are able to connect your Mode with Postgre SQl
+
+
 ## References
 1.Oreilly Book:
 <br>Learning SQL, 2nd Edition

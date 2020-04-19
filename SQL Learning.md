@@ -1,8 +1,8 @@
 # SQL Learning
 
 ### Run your SQL commands in Mode.
-1. download the Bridge Connector
-<br>https://app.mode.com/udacity_data_sciences/data_sources/bridges/8a84b988d6b3/default/postgresql/new
+1. Install the Bridge connector
+<br>https://app.mode.com/udacity_data_sciences/data_sources/bridges/setup/default/postgresql?flow=create_org
 
 2. Choose the connect page to Connecting through Bridge Connector page
 <br>https://app.mode.com/udacity_data_sciences/data_sources/bridges/default/default/postgresql

@@ -1,4 +1,4 @@
-# SQL
+# SQL Learning
 ## References
 Oreilly Book:
 <br>Learning SQL, 2nd Edition
@@ -8,5 +8,8 @@ Udacity Video:
 <br>1.SQL for Data Analysis
 <br>https://classroom.udacity.com/courses/ud198
 
-2.Intro to Relational Databases
+ayushi-b / SQL-for-Data-Analysis
+<br>https://github.com/ayushi-b/SQL-for-Data-Analysis
+
+Intro to Relational Databases
 <br>https://www.udacity.com/course/intro-to-relational-databases--ud197

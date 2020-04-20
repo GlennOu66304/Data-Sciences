@@ -18,6 +18,19 @@ Password for user postgres:
 
 4. Don't choose the encryption option then you are able to connect your Mode with Postgre SQl
 
+### Run PostgreSQL DVD Rental sample in Postgre Sql
+1.downlaod the DVD Rental sample :
+<br>https://www.postgresqltutorial.com/postgresql-sample-database/
+
+2.Extract the DVD Rental sample  Zip file into tar file
+<br>https://extract.me/
+
+3.Make sure that data format was chosen to all file, if you meet "no file was found" warning while you restore the data.
+<br>How to load database to PostgreSQL
+<br>https://www.youtube.com/watch?v=8bENMPsFepg
+
+4.printable postgresql sample database digram.psd
+<br>https://sp.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf
 
 ## References
 1.Oreilly Book:

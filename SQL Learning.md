@@ -25,6 +25,7 @@ PostgreSQL
 
 4.printable postgresql sample database digram.psd
 <br>https://sp.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf
+
 5. To launch the web version of pgadmin4, you need to click the pgadmin4 file first then find the elephant icon in mac header bar to choose New pgadmin4 window.
 
 ## 3.Run your SQL commands in Mode.

@@ -28,6 +28,41 @@ PostgreSQL
 
 5.To launch the web version of pgadmin4, you need to click the pgadmin4 file first then find the elephant icon in mac header bar to choose New pgadmin4 window.
 
+### 4. Run Udacity CSV FILE in Postgre Sql Pgadmin4
+1. CREAT A TABLER region :
+```CREATE TABLE public.region
+( 
+    id integer NOT NULL,
+	name character varying(25) COLLATE pg_catalog."default" NOT NULL,
+	CONSTRAINT region_pkey PRIMARY KEY(id)
+)
+
+  SELECT * FROM region;
+CREATE TABLE public.region
+( 
+    id integer NOT NULL,
+	name character varying(25) COLLATE pg_catalog."default" NOT NULL,
+	CONSTRAINT region_pkey PRIMARY KEY(id)
+)
+
+  SELECT * FROM region;
+```
+<br>Create the Parch & Posey DB
+<br>https://medium.com/@gauravinthevalley/run-the-parch-posey-db-locally-in-postgres-8a0c2fde0c2e
+
+2. Utilize Postgre Sql Pgadmin4 to Import a CVS File
+<br>Import CSV file into a table using pgAdmin
+<br>https://www.postgresqltutorial.com/import-csv-file-into-posgresql-table/
+
+Test the result:
+```
+SELECT * FROM Region;
+```
+
+3.parchposey Dataset
+<br>parchposey
+<br>https://github.com/jdbarillas/parchposey
+
 ## 3.Run your SQL commands in Mode.
 1. Install the Bridge connector
 <br>https://app.mode.com/udacity_data_sciences/data_sources/bridges/setup/default/postgresql?flow=create_org

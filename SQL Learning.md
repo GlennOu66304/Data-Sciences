@@ -1,6 +1,32 @@
 # SQL Learning
+### 1.Enviroment To Run your SQL Code:
+PostgreSQL
+<br>1,Interactive installer by EnterpriseDB
+<br>https://www.postgresql.org/download/macosx/
+<br>2.PostgreSQL Database Download
+<br>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+<br>3.Installation of PostgreSQL on Mac OS
+<br>https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os
+<br>4.The PostgreSQL documentation
+<br>https://www.enterprisedb.com/edb-docs/p/postgresql
+<br>5.Connecting PostgreSQL using psql and pgAdmin
+<br>https://www.enterprisedb.com/postgres-tutorials/connecting-postgresql-using-psql-and-pgadmin
 
-### Run your SQL commands in Mode.
+### 2.Run PostgreSQL DVD Rental sample in Postgre Sql
+1.downlaod the DVD Rental sample :
+<br>https://www.postgresqltutorial.com/postgresql-sample-database/
+
+2.Extract the DVD Rental sample  Zip file into tar file
+<br>https://extract.me/
+
+3.Make sure that data format was chosen to all file, if you meet "no file was found" warning while you restore the data.
+<br>How to load database to PostgreSQL
+<br>https://www.youtube.com/watch?v=8bENMPsFepg
+
+4.printable postgresql sample database digram.psd
+<br>https://sp.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf
+
+## 3.Run your SQL commands in Mode.
 1. Install the Bridge connector
 <br>https://app.mode.com/udacity_data_sciences/data_sources/bridges/setup/default/postgresql?flow=create_org
 
@@ -18,20 +44,6 @@ Password for user postgres:
 
 4. Don't choose the encryption option then you are able to connect your Mode with Postgre SQl
 
-### Run PostgreSQL DVD Rental sample in Postgre Sql
-1.downlaod the DVD Rental sample :
-<br>https://www.postgresqltutorial.com/postgresql-sample-database/
-
-2.Extract the DVD Rental sample  Zip file into tar file
-<br>https://extract.me/
-
-3.Make sure that data format was chosen to all file, if you meet "no file was found" warning while you restore the data.
-<br>How to load database to PostgreSQL
-<br>https://www.youtube.com/watch?v=8bENMPsFepg
-
-4.printable postgresql sample database digram.psd
-<br>https://sp.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf
-
 ## References
 1.Oreilly Book:
 <br>Learning SQL, 2nd Edition
@@ -46,20 +58,6 @@ ayushi-b / SQL-for-Data-Analysis
 
 Intro to Relational Databases
 <br>https://www.udacity.com/course/intro-to-relational-databases--ud197
-
-3.Enviroment To Run your SQL Code:
-
-PostgreSQL
-<br>1,Interactive installer by EnterpriseDB
-<br>https://www.postgresql.org/download/macosx/
-<br>2.PostgreSQL Database Download
-<br>https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
-<br>3.Installation of PostgreSQL on Mac OS
-<br>https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os
-<br>4.The PostgreSQL documentation
-<br>https://www.enterprisedb.com/edb-docs/p/postgresql
-<br>5.Connecting PostgreSQL using psql and pgAdmin
-<br>https://www.enterprisedb.com/postgres-tutorials/connecting-postgresql-using-psql-and-pgadmin
 
 <br>Mode
 <br>https://app.mode.com/home/glenn_ou/search

@@ -12,7 +12,7 @@ PostgreSQL
 <br>5.Connecting PostgreSQL using psql and pgAdmin
 <br>https://www.enterprisedb.com/postgres-tutorials/connecting-postgresql-using-psql-and-pgadmin
 
-### 2.Run PostgreSQL DVD Rental sample in Postgre Sql
+### 2.Run PostgreSQL DVD Rental sample in Postgre Sql Pgadmin4
 1.downlaod the DVD Rental sample :
 <br>https://www.postgresqltutorial.com/postgresql-sample-database/
 
@@ -25,6 +25,7 @@ PostgreSQL
 
 4.printable postgresql sample database digram.psd
 <br>https://sp.postgresqltutorial.com/wp-content/uploads/2018/03/printable-postgresql-sample-database-diagram.pdf
+5. To launch the web version of pgadmin4, you need to click the pgadmin4 file first then find the elephant icon in mac header bar to choose New pgadmin4 window.
 
 ## 3.Run your SQL commands in Mode.
 1. Install the Bridge connector

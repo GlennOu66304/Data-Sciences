@@ -102,7 +102,7 @@ ztdeMacBook-Air:~ zt$
 ```
 Unable to install beautifulsoup4 in python on Mac Os
 <br>https://stackoverflow.com/questions/49703657/unable-to-install-beautifulsoup4-in-python-on-mac-os
-Installing Beautiful Soup
+<br>Installing Beautiful Soup
 <br>https://www.crummy.com/software/BeautifulSoup/bs4/doc/#problems-after-installation
 
 2.Crwal a websit to try: (Partner with request package)
@@ -142,8 +142,6 @@ Beautiful Soup Documentation
 
 1.Python Basics Cheat sheet
 <br>https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf
-
-5.Doc Check in Dash.
 
 ## References:
 

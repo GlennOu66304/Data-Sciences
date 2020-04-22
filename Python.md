@@ -1,5 +1,5 @@
 # Python
-## coding Enviroment Building:
+## Coding Enviroment Building:
 
 1.install a python3
 <br>Download the latest version for Mac OS X
@@ -79,7 +79,66 @@ Requests: HTTP for Humans
 
 
 #### Beautifulsoup:
+1.install a Beautifulsoup package:
+```
+ztdeMacBook-Air:~ zt$ pip3 install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/54/0c/d01aa759fdc501a58f431eb594a17495f15b88da142ce14b5845662c13f3/pip-20.0.2-py2.py3-none-any.whl (1.4MB)
+     |████████████████████████████████| 1.4MB 173kB/s 
+Installing collected packages: pip
+  Found existing installation: pip 19.2.3
+    Uninstalling pip-19.2.3:
+      Successfully uninstalled pip-19.2.3
+Successfully installed pip-20.0.2
+ztdeMacBook-Air:~ zt$ pip3 install beautifulsoup4
+Collecting beautifulsoup4
+  Downloading beautifulsoup4-4.9.0-py3-none-any.whl (109 kB)
+     |████████████████████████████████| 109 kB 87 kB/s 
+Collecting soupsieve>1.2
+  Downloading soupsieve-2.0-py2.py3-none-any.whl (32 kB)
+Installing collected packages: soupsieve, beautifulsoup4
+Successfully installed beautifulsoup4-4.9.0 soupsieve-2.0
+ztdeMacBook-Air:~ zt$ 
+```
+Unable to install beautifulsoup4 in python on Mac Os
+<br>https://stackoverflow.com/questions/49703657/unable-to-install-beautifulsoup4-in-python-on-mac-os
+Installing Beautiful Soup
+<br>https://www.crummy.com/software/BeautifulSoup/bs4/doc/#problems-after-installation
 
+2.Crwal a websit to try: (Partner with request package)
+```
+ztdeMacBook-Air:~ zt$ python3
+Python 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from bs4 import BeautifulSoup
+>>> response = requests.get('https://en.wikipedia.org')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'requests' is not defined
+>>> import requests
+>>> response = requests.get('https://en.wikipedia.org')
+>>> html = response.text
+>>> print(html)
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"XqBuewpAEKAAAPIlmJQAAAAN","wgCSPNonce":!1,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":!1,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":951809097,"wgRevisionId":951809097,"wgArticleId":15580374,"wgIsArticle":!0,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":!0,"wgMediaViewerOnClick":!0,
+...........................................................................................................................
+>>> soup.title
+<title>Wikipedia, the free encyclopedia</title>
+
+>>> soup.p
+<p><b><a href="/wiki/Henry_Conwell" title="Henry Conwell">Henry Conwell</a></b> (<abbr title="circa">c.</abbr><span style="white-space:nowrap;"> 1748</span> – 1842) was an Irish-born <a href="/wiki/Bishop_in_the_Catholic_Church" title="Bishop in the Catholic Church">Catholic bishop</a> in the United States. After serving as a priest in Ireland for more than four decades, he was installed as the second <a href="/wiki/Roman_Catholic_Archdiocese_of_Philadelphia" title="Roman Catholic Archdiocese of Philadelphia">bishop of Philadelphia</a> in 1819.
+>>> soup.p.a
+<a href="/wiki/Henry_Conwell" title="Henry Conwell">Henry Conwell</a>
+>>> 
+```
+Beautiful Soup Documentation
+<br>https://www.crummy.com/software/BeautifulSoup/bs4/doc/#problems-after-installation
 
 1.Python Basics Cheat sheet
 <br>https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf

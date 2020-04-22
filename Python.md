@@ -1,4 +1,18 @@
-## Python
+# Python
+## Python in Real Life using
+### Pyhton Craw Skill:
+
+1.Request 
+
+install the request package
+
+
+1.Python Basics Cheat sheet
+<br>https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf
+
+
+## coding Enviroment Building:
+
 1.install a python3
 <br>Download the latest version for Mac OS X
 <br>https://www.python.org/downloads/
@@ -21,12 +35,7 @@ $ python3 my-first-script.py
 ```
 5.Doc Check in Dash.
 
-### Python in Real Life using
-Python Basics Cheat sheet
-<br>https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf
-
-
-### References:
+## References:
 
 1.Udacity Video Content:
 <br>Introduction to Python Programming

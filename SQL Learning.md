@@ -1,4 +1,14 @@
 # SQL Learning
+### SQL Real Lfe Using:
+
+1.SQL CHEAT SHEET
+<br>https://cdn.sqltutorial.org/wp-content/uploads/2016/04/SQL-cheat-sheet.pdf
+<br>2.SQL COMMANDS
+<br>https://intellipaat.com/mediaFiles/2019/02/SQL-Commands-Cheat-Sheet.pdf
+
+
+
+
 ### 1.Enviroment To Run your SQL Code:
 PostgreSQL
 <br>1,Interactive installer by EnterpriseDB

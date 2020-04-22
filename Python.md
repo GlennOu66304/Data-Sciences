@@ -1,4 +1,22 @@
 ## Python
+1.install a python
+<br>Download the latest version for Mac OS X
+<br>https://www.python.org/downloads/
+
+2.Test python 3 in your Computer 
+```
+$ python3 --version
+```
+3.Launch Pyhton3
+```
+ztdeMacBook-Air:~ zt$ python3
+Python 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
+
+
 ### Python in Real Life using
 Python Basics Cheat sheet
 <br>https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf

@@ -100,13 +100,13 @@ Password for user postgres:
 <br>1.SQL for Data Analysis
 <br>https://classroom.udacity.com/courses/ud198
 
-ayushi-b / SQL-for-Data-Analysis
+2.ayushi-b / SQL-for-Data-Analysis
 <br>https://github.com/ayushi-b/SQL-for-Data-Analysis
 
-Intro to Relational Databases
+3.Intro to Relational Databases
 <br>https://www.udacity.com/course/intro-to-relational-databases--ud197
 
-<br>Mode
+4.<br>Mode
 <br>https://app.mode.com/home/glenn_ou/search
 
 

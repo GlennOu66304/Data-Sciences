@@ -1,5 +1,5 @@
 ## Python
-1.install a python
+1.install a python3
 <br>Download the latest version for Mac OS X
 <br>https://www.python.org/downloads/
 
@@ -15,7 +15,11 @@ Python 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
-
+4. Run a python file in Terminal:
+```
+$ python3 my-first-script.py
+```
+5.Doc Check in Dash.
 
 ### Python in Real Life using
 Python Basics Cheat sheet

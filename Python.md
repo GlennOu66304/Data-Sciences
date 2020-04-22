@@ -1,15 +1,16 @@
-### Python
+## Python
+### Python in Real Life using
+Python Basics Cheat sheet
+<br>https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf
 
-## References:
+
+### References:
 
 1.Udacity Video Content:
-
 <br>Introduction to Python Programming
 <br>https://classroom.udacity.com/courses/ud1110
-
 <br>2.Introduction to Python
 <br>https://learn.datacamp.com/courses/intro-to-python-for-data-science
-
 <br>3.Data Scientist with Python
 <br>https://learn.datacamp.com/career-tracks/data-scientist-with-python
 

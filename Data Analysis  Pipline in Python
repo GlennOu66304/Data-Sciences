@@ -1,0 +1,27 @@
+# Data Analysis  Pipline in Python
+1.open the Annadoca navigator and launch Jupyter note book
+
+<br>2. copy the commands line below in terminal in chrome to start the data analysis pipline
+```
+/opt/anaconda3/bin/jupyter_mac.command ; exit;
+(base) ztdeMacBook-Air:~ zt$ /opt/anaconda3/bin/jupyter_mac.command ; exit;
+[I 13:58:51.789 NotebookApp] Writing notebook server cookie secret to /Users/zt/Library/Jupyter/runtime/notebook_cookie_secret
+[I 13:58:53.753 NotebookApp] JupyterLab extension loaded from /opt/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 13:58:53.754 NotebookApp] JupyterLab application directory is /opt/anaconda3/share/jupyter/lab
+[I 13:58:54.392 NotebookApp] Serving notebooks from local directory: /Users/zt
+[I 13:58:54.393 NotebookApp] The Jupyter Notebook is running at:
+[I 13:58:54.393 NotebookApp] http://localhost:8888/?token=8c46d838f0fc0dcbd591deb0a5e72243cb8a6ef6ace9d643
+[I 13:58:54.393 NotebookApp]  or http://127.0.0.1:8888/?token=8c46d838f0fc0dcbd591deb0a5e72243cb8a6ef6ace9d643
+[I 13:58:54.393 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 13:58:54.407 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/zt/Library/Jupyter/runtime/nbserver-17385-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=8c46d838f0fc0dcbd591deb0a5e72243cb8a6ef6ace9d643
+     or http://127.0.0.1:8888/?token=8c46d838f0fc0dcbd591deb0a5e72243cb8a6ef6ace9d643
+[I 13:59:15.249 NotebookApp] 302 GET /tree (127.0.0.1) 11.34ms
+[I 13:59:55.160 NotebookApp] 302 GET /tree (127.0.0.1) 1.48ms
+[I 14:00:48.951 NotebookApp] 302 GET /?token=8c46d838f0fc0dcbd591deb0a5e72243cb8a6ef6ace9d643 (127.0.0.1) 8.51ms
+```
+3.

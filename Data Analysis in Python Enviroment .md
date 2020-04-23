@@ -369,3 +369,7 @@ Solving environment: done
 
 # All requested packages already installed.
 ```
+## Reference
+Anaconda and Jupyter Notebooks
+<br>https://classroom.udacity.com/courses/ud1111
+

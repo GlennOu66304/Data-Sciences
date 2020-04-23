@@ -1,6 +1,5 @@
 # Data Analysis  Pipline in Python
 1.open the Annadoca navigator and launch Jupyter note book
-
 <br>2. copy the commands line below in terminal in chrome to start the data analysis pipline
 ```
 /opt/anaconda3/bin/jupyter_mac.command ; exit;

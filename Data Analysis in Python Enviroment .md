@@ -1,4 +1,4 @@
-# Data Analysis
+# Data Analysis in Python Enviroment :
 
 ## Enviroment building:
 1.check your Computer 32-bit or 64-bit processor
@@ -9,7 +9,7 @@
 <br>3.install pycharm
 <br>https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=mac&code=PCC
 
-## Real life using Code:
+## Real life using Annacoda:
 1.package check:conda -- list
 ```
 (base) ztdeMacBook-Air:~ zt$ conda list

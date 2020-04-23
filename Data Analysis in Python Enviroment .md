@@ -361,4 +361,11 @@ done
 Executing transaction: done
 (base) ztdeMacBook-Air:~ zt$ 
 ```
+2. install pandas
+```
+(base) ztdeMacBook-Air:~ zt$ conda install pandas
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
 
+# All requested packages already installed.
+```

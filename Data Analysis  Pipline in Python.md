@@ -24,7 +24,7 @@
 [I 13:59:55.160 NotebookApp] 302 GET /tree (127.0.0.1) 1.48ms
 [I 14:00:48.951 NotebookApp] 302 GET /?token=8c46d838f0fc0dcbd591deb0a5e72243cb8a6ef6ace9d643 (127.0.0.1) 8.51ms
 ```
-3.Reference MAterial
+3.Reference Material
 
 intro to Data Analysis
 <br>https://classroom.udacity.com/courses/ud170

@@ -74,7 +74,9 @@ WARNING: You are using pip version 19.2.3, however version 20.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % 
 ```
-References Paper:
+## References Paper:
+comparxiv
+<br>https://github.com/temken/comparxiv
 <br>查阅arXiv论文新神器，一行代码比较版本差别，Github新开源
 <br>贾浩楠 发自 凹非寺 量子位 报道 | 公众号 QbitAI
 <br>https://mp.weixin.qq.com/s/54dUw6vfQ35t5QZqmW0Dfg

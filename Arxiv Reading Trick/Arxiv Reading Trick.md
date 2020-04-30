@@ -81,10 +81,8 @@ zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ %
 
 3.comparxiv 1905.06348 N M
 
-
 4.comparxiv 1905.06348vN M
-
-5. Example comparxiv 1901.00075 1 2
+<br>5. Example comparxiv 1901.00075 1 2
 ```
 zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % comparxiv 1901.00075 1 2
                                     __  ___       
@@ -123,7 +121,6 @@ Authors:	 Xiaoyong Chu, Camilo Garcia-Cely, Hitoshi Murayama
 Success!
 zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % 
 ```
-
 <br>File Resource:
 <br>Finite-size dark matter and its effect on small-scale structure
 <br>https://arxiv.org/abs/1901.00075

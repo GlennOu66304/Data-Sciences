@@ -74,7 +74,7 @@ WARNING: You are using pip version 19.2.3, however version 20.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % 
 ```
-## 3.Usage:
+## 2.Usage:
 1.comparxiv hep-ph/0612370
 ```
 ```
@@ -92,7 +92,7 @@ zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ %
 ```
 
 
-## References Paper:
+## 3.References Paper:
 comparxiv
 <br>https://github.com/temken/comparxiv
 <br>查阅arXiv论文新神器，一行代码比较版本差别，Github新开源

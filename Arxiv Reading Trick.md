@@ -76,20 +76,57 @@ zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ %
 ```
 ## 2.Usage:
 1.comparxiv hep-ph/0612370
-```
-```
 
 2.comparxiv 1709.06573vN
-```
-```
 
 3.comparxiv 1905.06348 N M
-```
-```
+
 
 4.comparxiv 1905.06348vN M
+
+5. Example comparxiv 1901.00075 1 2
 ```
+zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % comparxiv 1901.00075 1 2
+                                    __  ___       
+  ___ ___  _ __ ___  _ __   __ _ _ _\ \/ (_)_   __
+ / __/ _ \| '_ ` _ \| '_ \ / _` | '__\  /| \ \ / /
+| (_| (_) | | | | | | |_) | (_| | |  /  \| |\ V / 
+ \___\___/|_| |_| |_| .__/ \__,_|_| /_/\_\_| \_/  
+                    |_|                           
+
+Version 0.1.7, developed by Timon Emken (2020)
+
+Compare [1901.00075]: v1 vs v2
+
+New title:	Finite-size dark matter and its effect on small-scale structure
+Old title:	Puffy Dark Matter
+Authors:	 Xiaoyong Chu, Camilo Garcia-Cely, Hitoshi Murayama 
+
+1.) Download and unpack source files:
+1901.00075v1: 792kB [00:07, 112kB/s]                                            
+1901.00075v2: 834kB [00:07, 118kB/s]                                            
+
+2.1) Identify master tex files:
+	1901.00075v1:	text.tex
+	1901.00075v2:	text.tex
+
+2.2) Identify bbl files:
+	1901.00075v1:	text.bbl
+	1901.00075v2:	text.bbl
+
+3.1) Run latexdiff on the tex files.
+
+3.2) Run latexdiff on the bbl files.
+
+4.) Generate a pdf with pdflatex.
+
+Success!
+zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % 
 ```
+
+<br>File Resource:
+<br>Finite-size dark matter and its effect on small-scale structure
+<br>https://arxiv.org/abs/1901.00075
 
 
 ## 3.References Paper:

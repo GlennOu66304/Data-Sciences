@@ -24,3 +24,5 @@ Learning R
 <br>R for Data Science
 <br>https://learning.oreilly.com/library/view/r-for-data/9781491910382/
 <br>https://r4ds.had.co.nz/
+<br>OReilly_HandsOn_Programming_with_R_2014
+<br>https://d1b10bmlvqabco.cloudfront.net/attach/ighbo26t3ua52t/igp9099yy4v10/igz7vp4w5su9/OReilly_HandsOn_Programming_with_R_2014.pdf

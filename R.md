@@ -1,4 +1,28 @@
 # R
+## Enviroment
+### 1.Install R
+R for mac OS X
+<br>https://cran.r-project.org/bin/macosx/
+<br>The Data Scientist’s Toolbox Week 1 Install R on a Mac {Roger Peng}
+<br>https://www.coursera.org/learn/data-scientists-tools/lecture/1Wri7/install-r-on-a-mac-roger-peng
+### 2.Install R studio
+1.Download RStudio
+<br>https://rstudio.com/products/rstudio/download/#download
+<br>2.The Data Scientist’s Toolbox Week 1 Installing Rstudio {Roger Peng}Prev
+<br>https://www.coursera.org/learn/data-scientists-tools/lecture/WEN32/installing-rstudio-roger-peng
+
+### 3.Install R markdown package:
+1.Creat a R markdown file, then allow the pop up install R markdown package command runing and finish running, then you can use a R markdown file;
+<br>2.02_09_installingRPackages.pdf
+<br>https://github.com/GlennOu66304/Data-Sciences/edit/master/R.md
+<br>The Data Scientist’s Toolbox Week 2 Installing R Packages
+<br>https://www.coursera.org/learn/data-scientists-tools/lecture/2td3V/installing-r-packages
+
+### 4.Install R and RStudio on Mac
+<br>https://medium.com/@GalarnykMichael/install-r-and-rstudio-on-mac-e911606ce4f4
+
+
+
 ### Learing Note In Udacity:
 #### 1.Run R code of file into R studio Console:
 1. Open the R code file in R studdio;

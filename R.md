@@ -5,7 +5,12 @@
 2. Select the R code part you want to run;
 3. Command + Enter to Run R code into R R studio Console:
 
-
+### 2.Look for help in R:
+In console, type:? + Term, for  exmple
+```
+?mean
+```
+You will find the exmplation in R help in R studio
 
 
 

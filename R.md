@@ -13,7 +13,7 @@
 <br>https://medium.com/@brenspiration/harvard-university-is-offering-free-14-online-data-science-courses-fd10e35a925c
 
 ### Data Camp Note:
-<br>GlennOu66304/Data-Sciences-in-R
+GlennOu66304/Data-Sciences-in-R
 <br>https://github.com/GlennOu66304/Data-Sciences-in-R
 
 ### Book:

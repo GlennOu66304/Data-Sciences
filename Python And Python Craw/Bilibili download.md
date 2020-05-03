@@ -73,7 +73,7 @@ zhanghuiqiao@zhanghuiqiaodeMacBook-Pro Bilibili_video_download-master % python3 
 [视频合并完成]:第10话 捕鱼猫和老大
 下载总耗时136.91秒,约2.27分钟
 ```
-### 6.You will find Video file in 
+### 6.You will find Video file in bilibili_video folder.
 
 ### 7.Play Video in IINA FLV Video palyer
 IINA

@@ -1,6 +1,6 @@
 # R
 ### Learing Note In Udacity:
-#### 1.Run a R code of file into R studio Console:
+#### 1.Run R code of file into R studio Console:
 1. Open the R code file in R studdio;
 2. Select the R code part you want to run;
 3. Command + Enter to Run R code into R R studio Console:
@@ -12,7 +12,29 @@ In console, type:? + Term, for  exmple
 ```
 You will find the exmplation in R help in R studio
 
+### 3.Read CSV file in R studio:
+1. Open the R code file in R studdio;
+2.Locate the current directoty:
+```
+getwd()
+```
+3. Move to R file directry:
+```
+setwd('/Users/zhanghuiqiao/Downloads/eda-course-materials/lesson2')
+```
+4. Run the file:
+```
+stattesinfo <- read.csv('stateData.csv')
+```
+5. You will see the data logs in Enviroment, then Click the sheet symbol to see the data content
 
+### 4. Subset data :
+```
+subset(stattesinfo, state.region == 1)
+stattesinfo[stattesinfo$state.region ==1,]
+```
+Note :1. Select the R code part you want to run;
+      <br>2. Command + Enter to Run R code into R R studio Console
 
 
 ## R Learning Resources

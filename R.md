@@ -1,4 +1,15 @@
 # R
+### Learing Note In Udacity:
+#### 1.Run a R code of file into R studio Console:
+1. Open the R code file in R studdio;
+2. Select the R code part you want to run;
+3. Command + Enter to Run R code into R R studio Console:
+
+
+
+
+
+
 ## R Learning Resources
 ### Video:
 1.Data Analysis with R

@@ -1,4 +1,4 @@
-#Craw Chinese WeiBo
+# Craw Chinese WeiBo
 ## Enviroment Building and Code running:
 1.Beautiful Soup & request(Python Coding Enviroment Building:)
 <br>https://github.com/GlennOu66304/Data-Sciences/blob/master/2.Python.md

@@ -15,3 +15,7 @@ Jupiter Notebook cannot package folium
 <br>https://blog.csdn.net/qq_34650787/article/details/83304080
 <br>解决：在anaconda下无法使用conda安装第三方库问题
 <br>https://blog.csdn.net/MrLevo520/article/details/73252004
+<br>Restarted computer, can no longer reach kernel #4399
+<br>https://stackoverflow.com/questions/60318511/no-module-named-gensim-but-already-installed-it
+<br>No module named 'gensim' but already installed it
+<br>https://stackoverflow.com/questions/60318511/no-module-named-gensim-but-already-installed-it

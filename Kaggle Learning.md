@@ -389,5 +389,9 @@ xgboost working in python but not in ipynb? #2159
 <br>https://stackoverflow.com/questions/45848254/xgboost-work-on-pycharm-but-not-in-jupyter-notebook
 #### If you download a Anacoda, Do not change it's path, In order to prevent Anacoda runing error
 
+2.in Python3 notebook Run different kernel
+JupyterNotebook设置Python环境
+<br>https://xmfbit.github.io/2018/04/09/set-env-in-jupyternotebook/
 
+in Python3 notebook Run different kernel
 

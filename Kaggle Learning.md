@@ -19,7 +19,7 @@ Note: you may need to restart the kernel to use updated packages.
 Installation
 <br>https://plotly.com/python/getting-started/
 
-## Trouble installing xgboost
+## installing xgboost
 ### Build from the source code - advanced method
 Build from the source code - advanced method
 <br>https://xgboost.readthedocs.io/en/latest/build.html#building-on-osx
@@ -377,3 +377,17 @@ How to install and use XGBOOST library in anaconda on Windows 10 ?
 <br>https://anaconda.org/anaconda/py-xgboost
 <br>Write a Python program using Anaconda Prompt or terminal
 <br>https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-prompt-mac
+
+## Run Xgboost in Jupyter Note boook
+1.Creat a new enviroment in Annacoda 
+<br>2.activate it and install xgboost and jupyter notebook 
+<br>3.open jupyter notebook and use xgboost
+
+xgboost working in python but not in ipynb? #2159
+<br>https://github.com/dmlc/xgboost/issues/2159
+<br>Xgboost work on pycharm but not in Jupyter NoteBook
+<br>https://stackoverflow.com/questions/45848254/xgboost-work-on-pycharm-but-not-in-jupyter-notebook
+#### If you download a Anacoda, Do not change it's path, In order to prevent Anacoda runing error
+
+
+

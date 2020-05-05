@@ -169,6 +169,183 @@ Emacs Lisp files have been installed to:
 ```
 2.Create the build/ directory 
 ```
+zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % cd /Users/zhanghuiqiao/xgboost 
+zhanghuiqiao@zhanghuiqiaodeMacBook-Pro xgboost % mkdir build  
+zhanghuiqiao@zhanghuiqiaodeMacBook-Pro xgboost % cd build  
+```
+3.invoke CMake. After invoking CMake, you can build XGBoost with make:
+```
+zhanghuiqiao@zhanghuiqiaodeMacBook-Pro build % cmake .. 
+-- The CXX compiler identification is AppleClang 11.0.3.11030032
+-- The C compiler identification is AppleClang 11.0.3.11030032
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- CMake version 3.17.2
+-- Performing Test XGBOOST_MM_PREFETCH_PRESENT
+-- Performing Test XGBOOST_MM_PREFETCH_PRESENT - Success
+-- Performing Test XGBOOST_BUILTIN_PREFETCH_PRESENT
+-- Performing Test XGBOOST_BUILTIN_PREFETCH_PRESENT - Success
+-- xgboost VERSION: 1.1.0
+-- Setting build type to 'Release' as none was specified.
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found OpenMP_C: -Xclang -fopenmp (found version "3.1") 
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "3.1") 
+-- Found OpenMP: TRUE (found version "3.1")  
+-- Found OpenMP_C: -Xclang -fopenmp (found version "3.1") 
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "3.1") 
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - not found
+-- Looking for fopen64
+-- Looking for fopen64 - not found
+-- Looking for C++ include cxxabi.h
+-- Looking for C++ include cxxabi.h - found
+-- Looking for nanosleep
+-- Looking for nanosleep - found
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- backtrace facility detected in default set of libraries
+-- Found Backtrace: /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include  
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Searching 16 bit integer - Using unsigned short
+-- Check if the system is big endian - little endian
+-- /Users/zhanghuiqiao/xgboost/dmlc-core/cmake/build_config.h.in -> include/dmlc/build_config.h
+-- Performing Test SUPPORT_MSSE2
+-- Performing Test SUPPORT_MSSE2 - Success
+DMLC_ROOT point to /Users/zhanghuiqiao/xgboost/rabit/../dmlc-core
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zhanghuiqiao/xgboost/build
+zhanghuiqiao@zhanghuiqiaodeMacBook-Pro build % make -j4 
+Scanning dependencies of target dmlc
+[  4%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/io.cc.o
+[  4%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/data.cc.o
+[  4%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/recordio.cc.o
+[  4%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/config.cc.o
+[  5%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/io/line_split.cc.o
+[  6%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/io/recordio_split.cc.o
+[  7%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/io/indexed_recordio_split.cc.o
+[  9%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/io/input_split_base.cc.o
+[ 10%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/io/filesys.cc.o
+[ 11%] Building CXX object dmlc-core/CMakeFiles/dmlc.dir/src/io/local_filesys.cc.o
+[ 12%] Linking CXX static library libdmlc.a
+[ 12%] Built target dmlc
+Scanning dependencies of target rabit_empty
+Scanning dependencies of target rabit_mock_static
+Scanning dependencies of target rabit
+Scanning dependencies of target objxgboost
+[ 13%] Building CXX object rabit/CMakeFiles/rabit_empty.dir/src/engine_empty.cc.o
+[ 14%] Building CXX object rabit/CMakeFiles/rabit.dir/src/allreduce_base.cc.o
+[ 15%] Building CXX object rabit/CMakeFiles/rabit_mock_static.dir/src/allreduce_base.cc.o
+[ 17%] Building CXX object src/CMakeFiles/objxgboost.dir/c_api/c_api.cc.o
+[ 18%] Building CXX object rabit/CMakeFiles/rabit_empty.dir/src/c_api.cc.o
+[ 19%] Linking CXX static library librabit_empty.a
+[ 19%] Built target rabit_empty
+[ 20%] Building CXX object rabit/CMakeFiles/rabit.dir/src/allreduce_robust.cc.o
+[ 21%] Building CXX object rabit/CMakeFiles/rabit_mock_static.dir/src/allreduce_robust.cc.o
+Scanning dependencies of target rabit_base
+[ 22%] Building CXX object rabit/CMakeFiles/rabit_base.dir/src/allreduce_base.cc.o
+[ 23%] Building CXX object src/CMakeFiles/objxgboost.dir/c_api/c_api_error.cc.o
+[ 25%] Building CXX object rabit/CMakeFiles/rabit_base.dir/src/engine_base.cc.o
+[ 26%] Building CXX object src/CMakeFiles/objxgboost.dir/common/common.cc.o
+[ 27%] Building CXX object rabit/CMakeFiles/rabit.dir/src/engine.cc.o
+[ 28%] Building CXX object rabit/CMakeFiles/rabit_mock_static.dir/src/engine_mock.cc.o
+[ 29%] Building CXX object rabit/CMakeFiles/rabit_base.dir/src/c_api.cc.o
+[ 30%] Building CXX object src/CMakeFiles/objxgboost.dir/common/hist_util.cc.o
+[ 31%] Building CXX object rabit/CMakeFiles/rabit.dir/src/c_api.cc.o
+[ 32%] Linking CXX static library librabit_base.a
+[ 32%] Built target rabit_base
+Scanning dependencies of target rabit_mock
+[ 34%] Building CXX object rabit/CMakeFiles/rabit_mock.dir/src/allreduce_base.cc.o
+[ 35%] Building CXX object rabit/CMakeFiles/rabit_mock_static.dir/src/c_api.cc.o
+[ 36%] Linking CXX static library librabit.a
+[ 36%] Built target rabit
+[ 37%] Building CXX object rabit/CMakeFiles/rabit_mock.dir/src/allreduce_robust.cc.o
+[ 38%] Linking CXX static library librabit_mock_static.a
+[ 38%] Built target rabit_mock_static
+[ 39%] Building CXX object src/CMakeFiles/objxgboost.dir/common/host_device_vector.cc.o
+[ 40%] Building CXX object src/CMakeFiles/objxgboost.dir/common/io.cc.o
+[ 42%] Building CXX object rabit/CMakeFiles/rabit_mock.dir/src/engine_mock.cc.o
+[ 43%] Building CXX object rabit/CMakeFiles/rabit_mock.dir/src/c_api.cc.o
+[ 44%] Building CXX object src/CMakeFiles/objxgboost.dir/common/json.cc.o
+[ 45%] Building CXX object src/CMakeFiles/objxgboost.dir/common/probability_distribution.cc.o
+[ 46%] Linking CXX shared library librabit_mock.dylib
+[ 47%] Building CXX object src/CMakeFiles/objxgboost.dir/common/survival_util.cc.o
+[ 47%] Built target rabit_mock
+[ 48%] Building CXX object src/CMakeFiles/objxgboost.dir/common/timer.cc.o
+[ 50%] Building CXX object src/CMakeFiles/objxgboost.dir/common/version.cc.o
+[ 51%] Building CXX object src/CMakeFiles/objxgboost.dir/data/data.cc.o
+[ 52%] Building CXX object src/CMakeFiles/objxgboost.dir/data/ellpack_page.cc.o
+[ 53%] Building CXX object src/CMakeFiles/objxgboost.dir/data/ellpack_page_source.cc.o
+[ 54%] Building CXX object src/CMakeFiles/objxgboost.dir/data/simple_dmatrix.cc.o
+[ 55%] Building CXX object src/CMakeFiles/objxgboost.dir/data/sparse_page_dmatrix.cc.o
+[ 56%] Building CXX object src/CMakeFiles/objxgboost.dir/data/sparse_page_raw_format.cc.o
+[ 57%] Building CXX object src/CMakeFiles/objxgboost.dir/gbm/gblinear.cc.o
+[ 59%] Building CXX object src/CMakeFiles/objxgboost.dir/gbm/gblinear_model.cc.o
+[ 60%] Building CXX object src/CMakeFiles/objxgboost.dir/gbm/gbm.cc.o
+[ 61%] Building CXX object src/CMakeFiles/objxgboost.dir/gbm/gbtree.cc.o
+[ 62%] Building CXX object src/CMakeFiles/objxgboost.dir/gbm/gbtree_model.cc.o
+[ 63%] Building CXX object src/CMakeFiles/objxgboost.dir/learner.cc.o
+[ 64%] Building CXX object src/CMakeFiles/objxgboost.dir/linear/linear_updater.cc.o
+[ 65%] Building CXX object src/CMakeFiles/objxgboost.dir/linear/updater_coordinate.cc.o
+[ 67%] Building CXX object src/CMakeFiles/objxgboost.dir/linear/updater_shotgun.cc.o
+[ 68%] Building CXX object src/CMakeFiles/objxgboost.dir/logging.cc.o
+[ 69%] Building CXX object src/CMakeFiles/objxgboost.dir/metric/elementwise_metric.cc.o
+[ 70%] Building CXX object src/CMakeFiles/objxgboost.dir/metric/metric.cc.o
+[ 71%] Building CXX object src/CMakeFiles/objxgboost.dir/metric/multiclass_metric.cc.o
+[ 72%] Building CXX object src/CMakeFiles/objxgboost.dir/metric/rank_metric.cc.o
+[ 73%] Building CXX object src/CMakeFiles/objxgboost.dir/metric/survival_metric.cc.o
+[ 75%] Building CXX object src/CMakeFiles/objxgboost.dir/objective/aft_obj.cc.o
+[ 76%] Building CXX object src/CMakeFiles/objxgboost.dir/objective/hinge.cc.o
+[ 77%] Building CXX object src/CMakeFiles/objxgboost.dir/objective/multiclass_obj.cc.o
+[ 78%] Building CXX object src/CMakeFiles/objxgboost.dir/objective/objective.cc.o
+[ 79%] Building CXX object src/CMakeFiles/objxgboost.dir/objective/rank_obj.cc.o
+[ 80%] Building CXX object src/CMakeFiles/objxgboost.dir/objective/regression_obj.cc.o
+[ 81%] Building CXX object src/CMakeFiles/objxgboost.dir/predictor/cpu_predictor.cc.o
+[ 82%] Building CXX object src/CMakeFiles/objxgboost.dir/predictor/predictor.cc.o
+[ 84%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/constraints.cc.o
+[ 85%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/param.cc.o
+[ 86%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/split_evaluator.cc.o
+[ 87%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/tree_model.cc.o
+[ 88%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/tree_updater.cc.o
+[ 89%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/updater_colmaker.cc.o
+[ 90%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/updater_histmaker.cc.o
+[ 92%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/updater_prune.cc.o
+[ 93%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/updater_quantile_hist.cc.o
+[ 94%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/updater_refresh.cc.o
+[ 95%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/updater_skmaker.cc.o
+[ 96%] Building CXX object src/CMakeFiles/objxgboost.dir/tree/updater_sync.cc.o
+[ 96%] Built target objxgboost
+Scanning dependencies of target runxgboost
+[ 97%] Building CXX object CMakeFiles/runxgboost.dir/src/cli_main.cc.o
+[ 98%] Linking CXX executable ../xgboost
+[ 98%] Built target runxgboost
+Scanning dependencies of target xgboost
+[100%] Linking CXX shared library ../lib/libxgboost.dylib
+[100%] Built target xgboost
+zhanghuiqiao@zhanghuiqiaodeMacBook-Pro build % 
 ```
 
 

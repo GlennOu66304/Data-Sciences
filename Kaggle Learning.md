@@ -21,6 +21,8 @@ Installation
 
 ## Trouble installing xgboost
 ### Build from the source code - advanced method
+Build from the source code - advanced method
+<br>https://xgboost.readthedocs.io/en/latest/build.html#building-on-osx
 #### 1.Obtain libomp from Homebrew:
 ```
 zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % brew install libomp 
@@ -167,12 +169,19 @@ Emacs Lisp files have been installed to:
 ==> Summary
 🍺  /usr/local/Cellar/cmake/3.17.2: 6,156 files, 58MB
 ```
+CMake command not found in OSX build environment #2175
+<br>https://github.com/travis-ci/travis-ci/issues/2175
+
 2.Create the build/ directory 
 ```
 zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % cd /Users/zhanghuiqiao/xgboost 
 zhanghuiqiao@zhanghuiqiaodeMacBook-Pro xgboost % mkdir build  
 zhanghuiqiao@zhanghuiqiaodeMacBook-Pro xgboost % cd build  
 ```
+'cd /Users/zhanghuiqiao/xgboost'  Very important!!!, You need to find location of CMakeLists.txt. Then move to there start directory build.
+<br>CMake Error buildir" does not appear to contain CMakeLists.txt
+<br>https://stackoverflow.com/questions/57342558/cmake-error-buildir-does-not-appear-to-contain-cmakelists-txt
+
 3.invoke CMake. After invoking CMake, you can build XGBoost with make:
 ```
 zhanghuiqiao@zhanghuiqiaodeMacBook-Pro build % cmake .. 

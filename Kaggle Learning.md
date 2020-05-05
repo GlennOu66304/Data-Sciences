@@ -21,14 +21,13 @@ Installation
 
 ## Trouble installing xgboost
 ### Official Guide:
-Trouble installing xgboost on OSX 10.14 #4949
-<br>https://github.com/dmlc/xgboost/issues/4949
-<br>Better XGBoost installation on Mac OSX? #4477
+Better XGBoost installation on Mac OSX? #4477
 <br>https://github.com/dmlc/xgboost/issues/4477
-<br>Problems while installing in OSX 10.11.6? #1501
-<br>https://github.com/dmlc/xgboost/issues/1501
 <br>Installation Guide¶
 <br>https://xgboost.readthedocs.io/en/latest/build.html
+Trouble installing xgboost on OSX 10.14 #4949
+<br>https://github.com/dmlc/xgboost/issues/4949
+
 
 ### py-xgboost install 
 How to install and use XGBOOST library in anaconda on Windows 10 ?

@@ -20,6 +20,7 @@ Installation
 <br>https://plotly.com/python/getting-started/
 
 ## Trouble installing xgboost
+### Official Guide:
 Trouble installing xgboost on OSX 10.14 #4949
 <br>https://github.com/dmlc/xgboost/issues/4949
 <br>Better XGBoost installation on Mac OSX? #4477
@@ -28,3 +29,13 @@ Trouble installing xgboost on OSX 10.14 #4949
 <br>https://github.com/dmlc/xgboost/issues/1501
 <br>Installation Guide¶
 <br>https://xgboost.readthedocs.io/en/latest/build.html
+
+### py-xgboost install 
+How to install and use XGBOOST library in anaconda on Windows 10 ?
+<br>https://www.youtube.com/watch?v=lxDEkTuaz_k
+<br>Install XGBoost on Mac - Machine Learning Tutorial Walkthrough
+<br>https://www.youtube.com/watch?v=GjMMQ2q_Qxo
+<br>py-xgboost 
+<br>https://anaconda.org/anaconda/py-xgboost
+<br>Write a Python program using Anaconda Prompt or terminal
+<br>https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-prompt-mac

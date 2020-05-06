@@ -60,6 +60,27 @@ conda-forge / packages / imbalanced-learn 0.6.2
 ```
 # --upgrade option can be used as downgrade also ;)
 $ pip3 install --upgrade --user prompt_toolkit==2.0.10
+Collecting prompt_toolkit==2.0.10
+  Downloading https://files.pythonhosted.org/packages/87/61/2dfea88583d5454e3a64f9308a686071d58d59a55db638268a6413e1eb6d/prompt_toolkit-2.0.10-py3-none-any.whl (340kB)
+     |████████████████████████████████| 348kB 27kB/s 
+Requirement already satisfied, skipping upgrade: wcwidth in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages (from prompt_toolkit==2.0.10) (0.1.9)
+Requirement already satisfied, skipping upgrade: six>=1.9.0 in /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages (from prompt_toolkit==2.0.10) (1.14.0)
+Installing collected packages: prompt-toolkit
+Successfully installed prompt-toolkit-2.0.10
+WARNING: You are using pip version 19.2.3, however version 20.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(base) zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % pip install --upgrade pip 
+Collecting pip
+  Downloading pip-20.1-py2.py3-none-any.whl (1.5 MB)
+     |████████████████████████████████| 1.5 MB 18 kB/s 
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 20.0.2
+    Uninstalling pip-20.0.2:
+      Successfully uninstalled pip-20.0.2
+Successfully installed pip-20.1
+(base) zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % 
+
 ```
 TypeError: __init__() got an unexpected keyword argument 'inputhook' #11962(Comment of lijunzh commented on Dec 3, 2019)
 <br>https://github.com/ipython/ipython/issues/11962

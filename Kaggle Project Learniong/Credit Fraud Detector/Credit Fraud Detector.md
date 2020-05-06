@@ -68,3 +68,11 @@ TypeError: __init__() got an unexpected keyword argument 'inputhook' #11962(Comm
 <br>imblearn.over_sampling.SMOTE
 <br>https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.over_sampling.SMOTE.html
 
+## Final Version:
+1. Code file is here
+<br>Credit Fraud __ Dealing with Imbalanced Datasets.ipynb
+<br>https://github.com/GlennOu66304/Data-Sciences/blob/master/Kaggle%20Project%20Learniong/Credit%20Fraud%20Detector/Credit%20Fraud%20%20__%20Dealing%20with%20Imbalanced%20Datasets.ipynb
+
+2. Dataset is here:
+<br>Credit Card Fraud Detection (Dataset is 150 MB, Can not be uploaded into Github, So you need to Zip it or provide dataset link here.)
+<br>https://www.kaggle.com/mlg-ulb/creditcardfraud

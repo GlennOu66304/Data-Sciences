@@ -1,16 +1,16 @@
 # Credit Fraud Detector
 
 ## Enviroment Build:
-1.Download the note book and dataset from Kaggle
+### 1.Download the note book and dataset from Kaggle
 <br>Credit Fraud Detector
 <br>https://www.kaggle.com/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets/notebook
 
-2.Notbook was written in Python3, So Choose the  Base(Root) Python3 enviromet in Anaconda, then launch the 
+### 2.Notbook was written in Python3, So Choose the  Base(Root) Python3 enviromet in Anaconda, then launch the 
 Jupyter note book.
 
-3.install required package in Anaconda. incliude:tensorflow, tensorflow estimate, seaborn, matplotlib.
+### 3.install required package in Anaconda. incliude:tensorflow, tensorflow estimate, seaborn, matplotlib.
 
-4.Use conda to install imbalanced-learn 
+### 4.Use conda to install imbalanced-learn 
 ```
 (base) zhanghuiqiao@zhanghuiqiaodeMacBook-Pro ~ % conda install -c conda-forge imbalanced-learn
 Collecting package metadata (current_repodata.json): done
@@ -55,6 +55,16 @@ Executing transaction: done
 conda-forge / packages / imbalanced-learn 0.6.2
 <br>https://anaconda.org/conda-forge/imbalanced-learn
 
-5. Solve the Kernel running error:
-<br>__init__() 
+### 5. Solve the Kernel running error:
+1.<br>__init__() error, Solved with :
+```
+# --upgrade option can be used as downgrade also ;)
+$ pip3 install --upgrade --user prompt_toolkit==2.0.10
+```
+TypeError: __init__() got an unexpected keyword argument 'inputhook' #11962(Comment of lijunzh commented on Dec 3, 2019)
+<br>https://github.com/ipython/ipython/issues/11962
+
+2.Ratio erro
+<br>imblearn.over_sampling.SMOTE
+<br>https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.over_sampling.SMOTE.html
 

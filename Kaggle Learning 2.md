@@ -225,15 +225,27 @@ Successfully installed ipykernel-5.2.1 ipython-7.14.0 jupyter-client-6.1.3 jupyt
 <br>jupyter kernal keeps dying #1892(Comment of takluyver commented on Nov 15, 2016)
 <br>https://github.com/jupyter/notebook/issues/1892
 
-
-
-
+## Jupiter Notebook cannot package folium
+### 1. First pip install folium
 Jupiter Notebook cannot package folium
 <br>https://stackoverflow.com/questions/60387988/jupiter-notebook-cannot-package-folium
-<br>No module named 'gensim' but already installed it
-<br>https://stackoverflow.com/questions/60318511/no-module-named-gensim-but-already-installed-it
-<br>Using Virtual Environments in Jupyter Notebook and Python
-<br>https://janakiev.com/blog/jupyter-virtual-envs/
+<br>python-visualization/folium
+https://github.com/python-visualization/folium
+### 2. In the jupyter kernel, Change the kernel to Python3, then run the sample code to test it
+```
+import folium
+
+
+m = folium.Map(location=[45.5236, -122.6750])
+
+m
+```
+Getting Started
+<br>https://python-visualization.github.io/folium/quickstart.html
+
+### 3.References Link:
+Jupiter Notebook cannot package folium
+<br>https://stackoverflow.com/questions/60387988/jupiter-notebook-cannot-package-folium
 <br>python-visualization/folium
 <br>https://github.com/python-visualization/folium
 <br>python-visualization/folium Python 3 support #21

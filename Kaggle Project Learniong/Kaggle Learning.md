@@ -2,15 +2,17 @@
 1.Learning other's kernel, then write a comments on Markdown files and Comments in ipyfile
 <br>2. Utilize what you learned to analysie other dataset
 
+## Github Reference
+
 Python机器学习及实践从零开始通往Kaggle竞赛之路
 <br>https://github.com/NobiGo/-MachineLearningStudy
-机器学习师从Andrew Ng(吴恩达)
+<br>机器学习师从Andrew Ng(吴恩达)
 <br>https://github.com/hongyuXie/MachineLearning
 <br>Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials
 <br>https://github.com/TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials
 <br>Interview/docs/Kaggle/
 <br>https://github.com/apachecn/Interview/tree/master/docs/Kaggle
-## Reference:
+## Kaggle Reference:
 How to Become a Data Scientist at Your Own
 <br>https://www.kaggle.com/getting-started/44915
 <br>datasciencemasters/go

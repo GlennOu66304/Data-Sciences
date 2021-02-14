@@ -1,4 +1,19 @@
 ## Wechat article spider:  
+
+## Docker install: 
+### Bug fixing:Failed to start Docker Application Container Engine
+
+Just shut down the VPN and rerun the command below again:
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+ [Failed to start Docker Application Container Engine](https://stackoverflow.com/questions/49110092/failed-to-start-docker-application-container-engine)  
+### Install Docker Engine on UbuntuInstall Docker Engine on Ubuntu
+[Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)  
+
+### Install Docker Compose
+[Install Docker ComposeInstall Docker Compose](https://docs.docker.com/compose/install/)  
+
 ## install the mongodb and redis on Linux system:
 ### 1.Mongodb:
 ```

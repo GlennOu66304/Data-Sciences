@@ -1,4 +1,62 @@
 ## Wechat article spider:  
+## install the mongodb and redis on Linux system:
+### 1.Mongodb:
+```
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+
+sudo apt-get update
+
+sudo apt-get install -y mongodb-org
+
+ps --no-headers -o comm 1
+
+sudo systemctl start mongod
+
+```
+
+Main reference:  
+[nstall MongoDB Community Edition on Ubuntu](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-mongodb-community-edition) 
+
+###  2. redis:  
+1. install the local version:
+ http://download.redis.io/redis-stable.tar.gz.
+ 
+2. command line install
+```
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
+```
+### Bug fixing:  You need tcl 8.5 or newer in order to run the Redis test make
+```
+sudo apt-get install tcl
+```
+[make test fails #1218](https://github.com/redis/redis/issues/1218)  
+
+### Bug fixing:redis-server does not work
+```
+cd redis-stable
+sudo cp src/redis-server /usr/local/bin/
+sudo cp src/redis-cli /usr/local/bin/
+sudo make install.
+```
+### Bug Start and shutdown the resdis
+```
+redis-server
+redis-cli shutdown
+```
+[How can I stop redis-server?](https://stackoverflow.com/questions/6910378/how-can-i-stop-redis-server#:~:text=start%20will%20start%20the%20redis,it%20at%20login%20and%20boot.&text=if%20your%20don't%20care,to%20force%20shutdown%20the%20server.&text=Try%20killall%20redis%2Dserver%20.,it%20with%20kill%20%2D9%20here_pid_number%20.)  
+
+Main reference:
+[Installing Redis](https://redis.io/topics/quickstart)  
+[How To Install and Secure Redis on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04)  
+[ubuntu下Fiddler抓包](https://www.jianshu.com/p/4505c732e378)  
+[Welcome to the Fiddler Alpha for Mono.](http://fiddler.wikidot.com/mono)  
+[How To Show Hidden Files In Linux](https://phoenixnap.com/kb/show-hidden-files-linux#:~:text=Show%20Hidden%20Files%20in%20a%20Graphical%20Interface%20(GUI),-There's%20a%20simple&text=2.,box%20to%20Show%20hidden%20files.)  
+[How To Show Hidden Files on Linux](https://devconnected.com/how-to-show-hidden-files-on-linux/)   
 
 ## Anyproxy installation and use
 ### Bug: PM2 command not found

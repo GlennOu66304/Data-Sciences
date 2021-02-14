@@ -7,12 +7,12 @@ Just hit the short cut"Ctrl+Alt+S" to view the Python interpret function, then y
 [Configure a Python interpreter](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.htmlhttps://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html)  
 [Unable to use matplotlibUnable to use matplotlib](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360003732899-Unable-to-use-matplotlib)  
 
-Main reference:  
+Main reference:    
 [带你初探量化世界](https://time.geekbang.org/column/article/109128)  
 
-Reference: 
+Reference:   
 [学习量化投资，看这篇文章就够了](https://zhuanlan.zhihu.com/p/20750993)  
-[量化研究每周精选](https://www.zhihu.com/column/c_109014466)  ## 量化交易
+[量化研究每周精选](https://www.zhihu.com/column/c_109014466)    
 ## Bug fxing:Unable to use matplotlib
 
 Just hit the short cut"Ctrl+Alt+S" to view the Python interpret function, then you can decide to install the " matplotlib" package
@@ -21,9 +21,9 @@ Just hit the short cut"Ctrl+Alt+S" to view the Python interpret function, then y
 [Configure a Python interpreter](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.htmlhttps://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html)  
 [Unable to use matplotlibUnable to use matplotlib](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360003732899-Unable-to-use-matplotlib)  
 
-Main reference:  
+Main reference:    
 [带你初探量化世界](https://time.geekbang.org/column/article/109128)  
 
-Reference: 
+Reference:   
 [学习量化投资，看这篇文章就够了](https://zhuanlan.zhihu.com/p/20750993)  
 [量化研究每周精选](https://www.zhihu.com/column/c_109014466)  

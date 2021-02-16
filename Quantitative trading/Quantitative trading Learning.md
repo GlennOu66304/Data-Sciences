@@ -1,4 +1,28 @@
 ## 量化交易
+
+### Bug:No module named 'websocket'No module named 'websocket'
+```
+pip install websocket-client
+```
+[No module named 'websocket'No module named 'websocket'](https://stackoverflow.com/questions/47665760/no-module-named-websocket/47666357)  
+
+## ImportError: No module named 'thread'
+```
+import _threadimport _thread
+```
+## the reason why you can not see the 36.py content come out, because you did not put the BTCUSD_GEMINI.csv file under the project folder:
+
+and missing the code below:
+```
+import os.path as path
+import pandas as pdimport os.path as path
+import pandas as pd
+```
+[ImportError: No module named 'thread'](https://stackoverflow.com/questions/36809788/importerror-no-module-named-thread)  
+[Python Multiline Comments](https://realpython.com/python-comments-guide/)  
+
+[GeekTimePythonClass](https://github.com/Eyelidstl/GeekTimePythonClass/blob/master/class_36/utils.py)  
+
 ## Bug fxing:Unable to use matplotlib
 
 Just hit the short cut"Ctrl+Alt+S" to view the Python interpret function, then you can decide to install the " matplotlib" package

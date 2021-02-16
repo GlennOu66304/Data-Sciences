@@ -1,4 +1,28 @@
 ## 量化交易
+##Django
+### Bug:Command 'django-admin' not found, but can be installed with: Linux
+```
+pip uninstall django
+sudo pip install django
+django-admin startproject example
+```
+
+You need to createa a vitural enviroment, then install the django in this enviroment. and type the code in this enviroment
+[django-admin --version can not find installed version](https://askubuntu.com/questions/1190547/django-admin-version-can-not-find-installed-versionhttps://askubuntu.com/questions/1190547/django-admin-version-can-not-find-installed-version)  
+[Command not found: django-admin.py](https://stackoverflow.com/questions/8250086/command-not-found-django-admin-py#:~:text=If%20you%20come%20across%20command,install%20the%20framework%20using%20pip.&text=After%20that%20look%20at%20the,admin.py%20exist%20or%20not.)
+
+
+
+Version check:
+```
+>>> import django
+>>> django.VERSION
+(2, 0, 0, 'final', 0)
+```
+[How to check Django version](https://stackoverflow.com/questions/6468397/how-to-check-django-version#:~:text=Simply%20type%20python%20%2Dm%20django,of%20installed%20modules%20including%20Django.)
+
+Main reference:  
+[39 | Django：搭建监控平台](https://time.geekbang.org/column/article/113533)  
 
 ### Bug:No module named 'websocket'No module named 'websocket'
 ```

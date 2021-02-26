@@ -2,7 +2,7 @@
 
 ### Bug fixing:Error: Failed to find Flask application or factory in module "flaskr". Use "FLASK_APP=flaskr:name to specify one.
 
-Change the _init_.py to the __init.__.py
+Change change the inii.py file name.
 
 ### Can not run the http://127.0.0.1:5000/
 

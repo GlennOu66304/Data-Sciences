@@ -1,5 +1,5 @@
 ## 量化交易
-##Django
+##  Django
 ### Bug:Command 'django-admin' not found, but can be installed with: Linux
 ```
 pip uninstall django

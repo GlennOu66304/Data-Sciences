@@ -1,5 +1,14 @@
 ## Python Flask
 
+### Bug fixing:Error: Failed to find Flask application or factory in module "flaskr". Use "FLASK_APP=flaskr:name to specify one.
+
+Change the _init_.py to the __init.__.py
+
+### Can not run the http://127.0.0.1:5000/
+
+You need to add the hello at the end of the url link:
+http://127.0.0.1:5000/hello
+
 ### Create the ven and indtall the Flask:
 Create the ven
 ```

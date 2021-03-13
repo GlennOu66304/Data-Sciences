@@ -1,3 +1,8 @@
+### Redis Desktop Manager: 
+
+[Quick Install](http://docs.redisdesktop.com/en/0.8.0/install/)  
+[书名：Redis使用手册](https://weread.qq.com/web/reader/75732070719551157574079kc81322c012c81e728d9d180)  
+
 ### Redis GUI
 ```
 $ npm install -g redis-commander

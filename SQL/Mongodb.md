@@ -23,7 +23,7 @@ mongod --dbpath /System/Volumes/Data/data/db
 3.open a new terminal,make sure the mongod tab is live:
 
 ```
-mongod
+mongo
 ```
 
 4.relaunch the the backend project again

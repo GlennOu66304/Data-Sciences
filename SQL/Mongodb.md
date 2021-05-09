@@ -29,3 +29,10 @@ mongo
 4.relaunch the the backend project again
 
 ## Use the mongod to debug the mongod issue:
+
+## Linux install the mongodb compass:
+```
+sudo dpkg -i mongodb-compass_1.26.1_amd64.deb
+mongodb-compass
+```
+[Download and Install Compass](https://docs.mongodb.com/compass/master/install/)

@@ -1,4 +1,13 @@
 ## 量化交易
+
+## Anacoda
+
+### install the Anacoda:
+[Installation](https://docs.anaconda.com/anaconda/install/index.html)
+
+### install the Anacoda poackage:
+[Installing conda packages](https://docs.anaconda.com/anaconda/user-guide/tasks/install-packages/)
+
 ##  Django
 ### Bug:Command 'django-admin' not found, but can be installed with: Linux
 ```

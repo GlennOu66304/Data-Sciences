@@ -1,4 +1,7 @@
 # Algorithmic Trading Using Python - Full Course
+## ImportError: cannot import name 'IEX_CLOUD_API_TOKEN' from 'secrets'
+Simply restart the curnal.  
+[ImportError: cannot import name 'IEX_CLOUD_API_TOKEN' from 'secrets'](https://github.com/nickmccullum/algorithmic-trading-python/issues/6)
 
 
 ## Resource:

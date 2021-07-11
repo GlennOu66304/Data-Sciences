@@ -43,7 +43,7 @@ mongodb-compass
 brew install mongodb-database-tools
 ```
 [mongodump and mongorestore command not found mac](https://stackoverflow.com/questions/63255620/mongodump-and-mongorestore-command-not-found-mac). 
-2.make sure the database is running:
+2.make sure the database is running:    
 ```
 mongod --dbpath /System/Volumes/Data/data/db 
 ```

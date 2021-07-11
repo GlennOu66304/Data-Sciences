@@ -58,6 +58,12 @@ Work bench[Error Code: 1046. No database selected Select the default DB to be us
 ## Usage exmple
 [Build Node.js Rest APIs with Express & MySQL](https://bezkoder.com/node-js-rest-api-express-mysql/#Configure_038_Connect_to_MySQL_database).   
 
+## SQL server and My SQL
+### [Difference between MySQL and SQL Server](https://www.tutorialspoint.com/difference-between-mysql-and-sql-server). 
+### [Equivalent of SQL Server IDENTITY Column in MySQL?](https://www.tutorialspoint.com/equivalent-of-sql-server-identity-column-in-mysql).  
+### [Stack overflow Equivalent of MSSQL IDENTITY Column in MySQL](https://stackoverflow.com/questions/10283780/equivalent-of-mssql-identity-column-in-mysql).  
+
+
 ## My SQl:How To Allow Remote Access to MySQL
 ```
 sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf

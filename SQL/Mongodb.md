@@ -36,3 +36,22 @@ sudo dpkg -i mongodb-compass_1.26.1_amd64.deb
 mongodb-compass
 ```
 [Download and Install Compass](https://docs.mongodb.com/compass/master/install/)
+
+## How to use the command to export a database file into the mongodb
+1.first install the mongotool 
+```
+brew install mongodb-database-tools
+```
+[mongodump and mongorestore command not found mac](https://stackoverflow.com/questions/63255620/mongodump-and-mongorestore-command-not-found-mac). 
+2.make sure the database is running:
+```
+mongod --dbpath /System/Volumes/Data/data/db 
+```
+2.restore to a new database:
+do not run it in the mongoshell, run it after the mongod --dbpath /System/Volumes/Data/data/db
+```
+mongorestore -d elem --verbose /Users/glenn/Downloads/elm
+```
+[restore to a new database:](https://stackoverflow.com/questions/18931668/how-to-restore-the-dump-into-your-running-mongodb).  
+
+

@@ -19,6 +19,10 @@ Work bench[Error Code: 1046. No database selected Select the default DB to be us
 ## .SQL File Extension
 [.SQL File Extension](https://fileinfo.com/extension/sql).  
 
+## Table check
+[8.2.3 Schema and Table Inspector](https://dev.mysql.com/doc/workbench/en/wb-develop-object-management-inspector.html). 
+[.SQL File Extension](https://fileinfo.com/extension/sql).   
+
 ## Usage exmple
 [Build Node.js Rest APIs with Express & MySQL](https://bezkoder.com/node-js-rest-api-express-mysql/#Configure_038_Connect_to_MySQL_database).   
 

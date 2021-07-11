@@ -38,11 +38,11 @@ mongodb-compass
 [Download and Install Compass](https://docs.mongodb.com/compass/master/install/)
 
 ## How to use the command to import a database file into the mongodb
-1.first install the mongotool 
+1.first install the mongotool        
 ```
 brew install mongodb-database-tools
 ```
-[mongodump and mongorestore command not found mac](https://stackoverflow.com/questions/63255620/mongodump-and-mongorestore-command-not-found-mac). 
+[mongodump and mongorestore command not found mac](https://stackoverflow.com/questions/63255620/mongodump-and-mongorestore-command-not-found-mac).     
 2.make sure the database is running:    
 ```
 mongod --dbpath /System/Volumes/Data/data/db 

@@ -12,6 +12,15 @@
 [workbench How to run SQL script in MySQL?](https://www.tutorialspoint.com/how-to-run-sql-script-in-mysql).   
 [How to run SQL script in MySQL?](https://stackoverflow.com/questions/8940230/how-to-run-sql-script-in-mysql). 
 
+## Error Code: 1046. No database selected Select the default DB to be used by double clicking its name
+Work bench[Error Code: 1046. No database selected Select the default DB to be used by double clicking its name](https://www.programmersought.com/article/26507710508/).  
+[SQL “with” clause - Error Code: 1046. No database selected Select the default DB to be used by double-clicking its name in the SCHEMAS](https://stackoverflow.com/questions/51791618/sql-with-clause-error-code-1046-no-database-selected-select-the-default-db)
+
+## .SQL File Extension
+[.SQL File Extension](https://fileinfo.com/extension/sql).  
+
+## Usage exmple
+[Build Node.js Rest APIs with Express & MySQL](https://bezkoder.com/node-js-rest-api-express-mysql/#Configure_038_Connect_to_MySQL_database).   
 
 ## My SQl:How To Allow Remote Access to MySQL
 ```

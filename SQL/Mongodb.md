@@ -37,7 +37,7 @@ mongodb-compass
 ```
 [Download and Install Compass](https://docs.mongodb.com/compass/master/install/)
 
-## How to use the command to export a database file into the mongodb
+## How to use the command to import a database file into the mongodb
 1.first install the mongotool 
 ```
 brew install mongodb-database-tools
@@ -47,11 +47,16 @@ brew install mongodb-database-tools
 ```
 mongod --dbpath /System/Volumes/Data/data/db 
 ```
-2.restore to a new database:
+3.restore to a new database:
 do not run it in the mongoshell, run it after the mongod --dbpath /System/Volumes/Data/data/db
 ```
 mongorestore -d elem --verbose /Users/glenn/Downloads/elm
 ```
 [restore to a new database:](https://stackoverflow.com/questions/18931668/how-to-restore-the-dump-into-your-running-mongodb).  
 
+4.reference
+[mongoD通过命令行批量导入json/bson数据](https://blog.csdn.net/c_zyer/article/details/76531859?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-7.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-7.control).   
+[mongorestore](https://docs.mongodb.com/database-tools/mongorestore/).  
+[Mongo导入json或者bson格式的文件](https://blog.csdn.net/weixin_44151887/article/details/106916153).  
+[MongoDB 导入Json和Bson](https://blog.csdn.net/lwc5411117/article/details/79675326).   
 

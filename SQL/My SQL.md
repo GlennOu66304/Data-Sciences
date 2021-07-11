@@ -33,6 +33,12 @@ mysql -u root -p
 [Access denied for user 'root@localhost' (using password:NO)](https://stackoverflow.com/questions/2995054/access-denied-for-user-rootlocalhost-using-passwordno). 
 
 ## Run the SQL script in the workbench
+
+Make sure you add the use schema 
+```
+第五步，（关键步骤）在打开的文件当中，除去注释外的第一行，添加一行代码，use schema名 。
+```
+[在Mysql workbench中导入.sql文件！（导入数据库文件）](https://mp.weixin.qq.com/s/MdRkdd0XlPvpYN0Ysz0v0g).  
 [workbench How to run SQL script in MySQL?](https://www.tutorialspoint.com/how-to-run-sql-script-in-mysql).   
 [How to run SQL script in MySQL?](https://stackoverflow.com/questions/8940230/how-to-run-sql-script-in-mysql). 
 

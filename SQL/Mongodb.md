@@ -54,7 +54,7 @@ mongorestore -d elem --verbose /Users/glenn/Downloads/elm
 ```
 [restore to a new database:](https://stackoverflow.com/questions/18931668/how-to-restore-the-dump-into-your-running-mongodb).  
 
-4.reference
+4.reference.   
 [mongoD通过命令行批量导入json/bson数据](https://blog.csdn.net/c_zyer/article/details/76531859?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-7.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-7.control).   
 [mongorestore](https://docs.mongodb.com/database-tools/mongorestore/).  
 [Mongo导入json或者bson格式的文件](https://blog.csdn.net/weixin_44151887/article/details/106916153).  

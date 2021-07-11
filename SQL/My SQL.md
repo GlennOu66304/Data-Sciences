@@ -8,9 +8,31 @@
 ## GUI tool:MySQL Workbench
 [MySQL Workbench](https://dev.mysql.com/downloads/workbench/).  
 
+## MySQL shell
+[MySQL Shell](https://dev.mysql.com/downloads/shell/).   
+
+## Mysql can not find
+```
+$ vim ~/.bash_profile  
+PATH=$PATH:/usr/local/mysql/bin 
+source ~/.bash_profile  
+vim .zshrc
+source ~/.bash_profile 
+```
+[设置环境变量：](https://juejin.cn/post/6844903633436278792).  
+[How to Save a File in Vim / Vi and Quit the Editor](https://linuxize.com/post/how-to-save-file-in-vim-quit-editor/#:~:text=The%20command%20to%20save%20a%20file%20in%20Vim%20and%20quit,type%20%3Awq%20and%20hit%20Enter%20.&text=Another%20command%20to%20save%20a%20file%20and%20quit%20Vim%20is%20%3Ax%20.).  
+```
+Press Esc
+Type :w
+Press Enter
+```
+
+
 ## Run the SQL script in the workbench
 [workbench How to run SQL script in MySQL?](https://www.tutorialspoint.com/how-to-run-sql-script-in-mysql).   
 [How to run SQL script in MySQL?](https://stackoverflow.com/questions/8940230/how-to-run-sql-script-in-mysql). 
+
+
 
 ## Error Code: 1046. No database selected Select the default DB to be used by double clicking its name
 Work bench[Error Code: 1046. No database selected Select the default DB to be used by double clicking its name](https://www.programmersought.com/article/26507710508/).  

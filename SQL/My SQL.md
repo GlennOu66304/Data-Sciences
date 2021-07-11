@@ -1,3 +1,18 @@
+
+## Install and run the My SQL on Mac
+
+### install:
+[ MySQL Community Downloads](https://dev.mysql.com/downloads/mysql/).  
+[Installing MySQL on macOS Using Native Packages](https://dev.mysql.com/doc/refman/5.7/en/macos-installation-pkg.html).   
+
+## GUI tool:MySQL Workbench
+[MySQL Workbench](https://dev.mysql.com/downloads/workbench/).  
+
+## Run the SQL script in the workbench
+[workbench How to run SQL script in MySQL?](https://www.tutorialspoint.com/how-to-run-sql-script-in-mysql).   
+[How to run SQL script in MySQL?](https://stackoverflow.com/questions/8940230/how-to-run-sql-script-in-mysql). 
+
+
 ## My SQl:How To Allow Remote Access to MySQL
 ```
 sudo vim /etc/mysql/mysql.conf.d/mysqld.cnf

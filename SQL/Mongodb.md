@@ -60,3 +60,6 @@ mongorestore -d elem --verbose /Users/glenn/Downloads/elm
 [Mongo导入json或者bson格式的文件](https://blog.csdn.net/weixin_44151887/article/details/106916153).  
 [MongoDB 导入Json和Bson](https://blog.csdn.net/lwc5411117/article/details/79675326).   
 
+## SQL and mongodb
+[Should MongoDB Use SQL as a Query Language?](https://www.mongodb.com/blog/post/should-mongodb-use-sql-as-a-query-language).  
+[SQL to MongoDB Mapping Chart¶](https://docs.mongodb.com/manual/reference/sql-comparison/).    

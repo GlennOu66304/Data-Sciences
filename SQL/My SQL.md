@@ -26,7 +26,11 @@ Press Esc
 Type :w
 Press Enter
 ```
-
+## Access denied for user 'root@localhost' (using password:NO)
+```
+mysql -u root -p
+```
+[Access denied for user 'root@localhost' (using password:NO)](https://stackoverflow.com/questions/2995054/access-denied-for-user-rootlocalhost-using-passwordno). 
 
 ## Run the SQL script in the workbench
 [workbench How to run SQL script in MySQL?](https://www.tutorialspoint.com/how-to-run-sql-script-in-mysql).   
